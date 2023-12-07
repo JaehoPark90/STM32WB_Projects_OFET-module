@@ -1,0 +1,43 @@
+../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_adc.h:2496:22:LL_ADC_SetCommonPathInternalCh	1
+../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_adc.h:2589:26:LL_ADC_GetCommonPathInternalCh	1
+../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_adc.h:2724:22:LL_ADC_SetCalibrationFactor	1
+../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_adc.h:2767:26:LL_ADC_GetCalibrationFactor	1
+../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_adc.h:3194:22:LL_ADC_SetOffset	1
+../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_adc.h:3261:26:LL_ADC_GetOffsetChannel	1
+../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_adc.h:3320:22:LL_ADC_SetOffsetState	1
+../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_adc.h:3487:26:LL_ADC_REG_IsTriggerSourceSWStart	2
+../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_adc.h:4718:26:LL_ADC_INJ_IsTriggerSourceSWStart	2
+../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_adc.h:5010:26:LL_ADC_INJ_GetTrigAuto	1
+../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_adc.h:5056:22:LL_ADC_INJ_SetQueueMode	1
+../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_adc.h:5451:22:LL_ADC_SetChannelSamplingTime	1
+../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_adc.h:5692:22:LL_ADC_SetChannelSingleDiff	1
+../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_adc.h:6559:22:LL_ADC_EnableDeepPowerDown	1
+../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_adc.h:6635:22:LL_ADC_DisableInternalRegulator	1
+../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_adc.h:6706:26:LL_ADC_IsEnabled	2
+../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_adc.h:6776:22:LL_ADC_StartCalibration	1
+../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_adc.h:6793:26:LL_ADC_IsCalibrationOnGoing	2
+../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_adc.h:6860:26:LL_ADC_REG_IsConversionOngoing	2
+../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_adc.h:6979:22:LL_ADC_INJ_StartConversion	1
+../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_adc.h:7015:26:LL_ADC_INJ_IsConversionOngoing	2
+C:/Users/Jaeho Park/STM32Cube/Repository/STM32Cube_FW_WB_V1.14.1/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_adc_ex.c:125:19:HAL_ADCEx_Calibration_Start	5
+C:/Users/Jaeho Park/STM32Cube/Repository/STM32Cube_FW_WB_V1.14.1/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_adc_ex.c:234:10:HAL_ADCEx_Calibration_GetValue	1
+C:/Users/Jaeho Park/STM32Cube/Repository/STM32Cube_FW_WB_V1.14.1/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_adc_ex.c:264:19:HAL_ADCEx_Calibration_SetValue	5
+C:/Users/Jaeho Park/STM32Cube/Repository/STM32Cube_FW_WB_V1.14.1/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_adc_ex.c:338:19:HAL_ADCEx_InjectedStart	8
+C:/Users/Jaeho Park/STM32Cube/Repository/STM32Cube_FW_WB_V1.14.1/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_adc_ex.c:439:19:HAL_ADCEx_InjectedStop	5
+C:/Users/Jaeho Park/STM32Cube/Repository/STM32Cube_FW_WB_V1.14.1/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_adc_ex.c:494:19:HAL_ADCEx_InjectedPollForConversion	16
+C:/Users/Jaeho Park/STM32Cube/Repository/STM32Cube_FW_WB_V1.14.1/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_adc_ex.c:607:19:HAL_ADCEx_InjectedStart_IT	10
+C:/Users/Jaeho Park/STM32Cube/Repository/STM32Cube_FW_WB_V1.14.1/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_adc_ex.c:731:19:HAL_ADCEx_InjectedStop_IT	5
+C:/Users/Jaeho Park/STM32Cube/Repository/STM32Cube_FW_WB_V1.14.1/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_adc_ex.c:814:10:HAL_ADCEx_InjectedGetValue	5
+C:/Users/Jaeho Park/STM32Cube/Repository/STM32Cube_FW_WB_V1.14.1/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_adc_ex.c:849:13:HAL_ADCEx_InjectedConvCpltCallback	1
+C:/Users/Jaeho Park/STM32Cube/Repository/STM32Cube_FW_WB_V1.14.1/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_adc_ex.c:868:13:HAL_ADCEx_InjectedQueueOverflowCallback	1
+C:/Users/Jaeho Park/STM32Cube/Repository/STM32Cube_FW_WB_V1.14.1/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_adc_ex.c:884:13:HAL_ADCEx_LevelOutOfWindow2Callback	1
+C:/Users/Jaeho Park/STM32Cube/Repository/STM32Cube_FW_WB_V1.14.1/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_adc_ex.c:899:13:HAL_ADCEx_LevelOutOfWindow3Callback	1
+C:/Users/Jaeho Park/STM32Cube/Repository/STM32Cube_FW_WB_V1.14.1/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_adc_ex.c:915:13:HAL_ADCEx_EndOfSamplingCallback	1
+C:/Users/Jaeho Park/STM32Cube/Repository/STM32Cube_FW_WB_V1.14.1/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_adc_ex.c:935:19:HAL_ADCEx_RegularStop	5
+C:/Users/Jaeho Park/STM32Cube/Repository/STM32Cube_FW_WB_V1.14.1/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_adc_ex.c:993:19:HAL_ADCEx_RegularStop_IT	5
+C:/Users/Jaeho Park/STM32Cube/Repository/STM32Cube_FW_WB_V1.14.1/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_adc_ex.c:1050:19:HAL_ADCEx_RegularStop_DMA	7
+C:/Users/Jaeho Park/STM32Cube/Repository/STM32Cube_FW_WB_V1.14.1/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_adc_ex.c:1182:19:HAL_ADCEx_InjectedConfigChannel	68
+C:/Users/Jaeho Park/STM32Cube/Repository/STM32Cube_FW_WB_V1.14.1/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_adc_ex.c:1608:19:HAL_ADCEx_EnableInjectedQueue	3
+C:/Users/Jaeho Park/STM32Cube/Repository/STM32Cube_FW_WB_V1.14.1/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_adc_ex.c:1649:19:HAL_ADCEx_DisableInjectedQueue	3
+C:/Users/Jaeho Park/STM32Cube/Repository/STM32Cube_FW_WB_V1.14.1/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_adc_ex.c:1687:19:HAL_ADCEx_DisableVoltageRegulator	2
+C:/Users/Jaeho Park/STM32Cube/Repository/STM32Cube_FW_WB_V1.14.1/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_adc_ex.c:1727:19:HAL_ADCEx_EnterADCDeepPowerDownMode	2

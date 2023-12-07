@@ -1,0 +1,28 @@
+../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h:539:22:LL_AHB2_GRP1_EnableClock	1
+../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h:1274:22:LL_APB2_GRP1_EnableClock	1
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.c:133:10:BSP_GetVersion	1
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.c:151:6:BSP_LED_Init	1
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.c:179:6:BSP_LED_DeInit	1
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.c:199:6:BSP_LED_On	1
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.c:213:6:BSP_LED_Off	1
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.c:227:6:BSP_LED_Toggle	1
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.c:254:6:BSP_PB_Init	6
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.c:298:6:BSP_PB_DeInit	1
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.c:316:10:BSP_PB_GetState	1
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.c:336:9:BSP_JOY_Init	2
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.c:366:18:BSP_JOY_GetState	12
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.c:435:13:SPIx_MspInit	1
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.c:470:13:SPIx_Init	2
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.c:510:13:SPIx_WriteReadData	2
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.c:528:13:SPIx_Write	2
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.c:547:13:SPIx_Error	1
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.c:566:6:SD_IO_Init	2
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.c:610:6:SD_IO_CSState	2
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.c:629:6:SD_IO_WriteReadData	1
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.c:640:9:SD_IO_WriteByte	1
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.c:654:6:LCD_IO_Init	1
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.c:685:6:LCD_IO_WriteReg	1
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.c:706:6:LCD_IO_WriteMultipleData	6
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.c:762:6:LCD_Delay	1
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.c:775:13:ADCx_MspInit	1
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.c:805:26:ADCx_Init	4

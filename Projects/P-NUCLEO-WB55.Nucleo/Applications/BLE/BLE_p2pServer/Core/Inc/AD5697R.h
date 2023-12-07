@@ -1,0 +1,17 @@
+#define AD5697R_ADDRESS (0xC)<<1
+
+#define AD5697R_COM_NOOP 0b00000000
+#define AD5697R_COM_WRUP 0b00110000
+#define AD5697R_COM_PWDN 0b01000000
+
+#define AD5697R_PORT_DACA 0b00000001
+#define AD5697R_PORT_DACB 0b00001000
+#define AD5697R_PORT_BOTH 0b00001001
+
+#define AD5697R_PWDN_NOOP 0b00111100
+
+void AD5697R_setDAC(uint8_t, double);
+void AD5697R_init(void);
+
+static uint16_t AD5697R_retDACval(double);
+static HAL_StatusTypeDef AD5697R_write(uint8_t*);

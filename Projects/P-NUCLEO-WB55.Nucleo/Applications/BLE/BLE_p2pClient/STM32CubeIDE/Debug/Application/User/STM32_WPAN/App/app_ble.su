@@ -1,0 +1,21 @@
+../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_system.h:2221:26:LL_FLASH_GetUDN	4	static
+../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_system.h:2233:26:LL_FLASH_GetDeviceID	4	static
+../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_system.h:2245:26:LL_FLASH_GetSTCompanyID	4	static
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Projects/P-NUCLEO-WB55.Nucleo/Applications/BLE/BLE_p2pClient/STM32_WPAN/App/app_ble.c:246:6:APP_BLE_Init	80	static
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Projects/P-NUCLEO-WB55.Nucleo/Applications/BLE/BLE_p2pClient/STM32_WPAN/App/app_ble.c:375:28:SVCCTL_App_Notification	112	static
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Projects/P-NUCLEO-WB55.Nucleo/Applications/BLE/BLE_p2pClient/STM32_WPAN/App/app_ble.c:686:22:APP_BLE_Get_Client_Connection_Status	16	static
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Projects/P-NUCLEO-WB55.Nucleo/Applications/BLE/BLE_p2pClient/STM32_WPAN/App/app_ble.c:695:6:APP_BLE_Key_Button1_Action	8	static
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Projects/P-NUCLEO-WB55.Nucleo/Applications/BLE/BLE_p2pClient/STM32_WPAN/App/app_ble.c:711:6:APP_BLE_Key_Button2_Action	4	static
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Projects/P-NUCLEO-WB55.Nucleo/Applications/BLE/BLE_p2pClient/STM32_WPAN/App/app_ble.c:715:6:APP_BLE_Key_Button3_Action	4	static
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Projects/P-NUCLEO-WB55.Nucleo/Applications/BLE/BLE_p2pClient/STM32_WPAN/App/app_ble.c:724:13:Ble_Tl_Init	16	static
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Projects/P-NUCLEO-WB55.Nucleo/Applications/BLE/BLE_p2pClient/STM32_WPAN/App/app_ble.c:735:13:Ble_Hci_Gap_Gatt_Init	88	static
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Projects/P-NUCLEO-WB55.Nucleo/Applications/BLE/BLE_p2pClient/STM32_WPAN/App/app_ble.c:953:13:Scan_Request	16	static
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Projects/P-NUCLEO-WB55.Nucleo/Applications/BLE/BLE_p2pClient/STM32_WPAN/App/app_ble.c:986:13:Connect_Request	48	static
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Projects/P-NUCLEO-WB55.Nucleo/Applications/BLE/BLE_p2pClient/STM32_WPAN/App/app_ble.c:1031:13:Switch_OFF_GPIO	8	static
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Projects/P-NUCLEO-WB55.Nucleo/Applications/BLE/BLE_p2pClient/STM32_WPAN/App/app_ble.c:1038:16:BleGetBdAddress	32	static
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Projects/P-NUCLEO-WB55.Nucleo/Applications/BLE/BLE_p2pClient/STM32_WPAN/App/app_ble.c:1095:6:hci_notify_asynch_evt	16	static
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Projects/P-NUCLEO-WB55.Nucleo/Applications/BLE/BLE_p2pClient/STM32_WPAN/App/app_ble.c:1101:6:hci_cmd_resp_release	16	static
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Projects/P-NUCLEO-WB55.Nucleo/Applications/BLE/BLE_p2pClient/STM32_WPAN/App/app_ble.c:1107:6:hci_cmd_resp_wait	16	static
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Projects/P-NUCLEO-WB55.Nucleo/Applications/BLE/BLE_p2pClient/STM32_WPAN/App/app_ble.c:1113:13:BLE_UserEvtRx	24	static
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Projects/P-NUCLEO-WB55.Nucleo/Applications/BLE/BLE_p2pClient/STM32_WPAN/App/app_ble.c:1133:13:BLE_StatusNot	24	static
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Projects/P-NUCLEO-WB55.Nucleo/Applications/BLE/BLE_p2pClient/STM32_WPAN/App/app_ble.c:1162:6:SVCCTL_ResumeUserEventFlow	8	static

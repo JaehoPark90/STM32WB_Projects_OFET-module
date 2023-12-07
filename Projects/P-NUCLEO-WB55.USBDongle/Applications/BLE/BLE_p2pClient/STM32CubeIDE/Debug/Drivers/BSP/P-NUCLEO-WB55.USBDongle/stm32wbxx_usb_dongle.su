@@ -1,0 +1,10 @@
+../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_bus.h:539:22:LL_AHB2_GRP1_EnableClock	24	static
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Drivers/BSP/P-NUCLEO-WB55.USBDongle/stm32wbxx_usb_dongle.c:82:10:BSP_GetVersion	4	static
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Drivers/BSP/P-NUCLEO-WB55.USBDongle/stm32wbxx_usb_dongle.c:98:6:BSP_LED_Init	40	static
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Drivers/BSP/P-NUCLEO-WB55.USBDongle/stm32wbxx_usb_dongle.c:124:6:BSP_LED_DeInit	40	static
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Drivers/BSP/P-NUCLEO-WB55.USBDongle/stm32wbxx_usb_dongle.c:142:6:BSP_LED_On	16	static
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Drivers/BSP/P-NUCLEO-WB55.USBDongle/stm32wbxx_usb_dongle.c:154:6:BSP_LED_Off	16	static
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Drivers/BSP/P-NUCLEO-WB55.USBDongle/stm32wbxx_usb_dongle.c:166:6:BSP_LED_Toggle	16	static
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Drivers/BSP/P-NUCLEO-WB55.USBDongle/stm32wbxx_usb_dongle.c:190:6:BSP_PB_Init	40	static
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Drivers/BSP/P-NUCLEO-WB55.USBDongle/stm32wbxx_usb_dongle.c:228:6:BSP_PB_DeInit	40	static
+C:/Users/Jaeho Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Drivers/BSP/P-NUCLEO-WB55.USBDongle/stm32wbxx_usb_dongle.c:243:10:BSP_PB_GetState	16	static

@@ -1,0 +1,4 @@
+../Application/User/Core/AD5697R.c:9:26:AD5697R_write	32	static
+../Application/User/Core/AD5697R.c:21:6:AD5697R_setDAC	32	static
+../Application/User/Core/AD5697R.c:43:6:AD5697R_init	16	static
+../Application/User/Core/AD5697R.c:55:17:AD5697R_retDACval	32	static
