@@ -1,6 +1,6 @@
 Middlewares/STM32_WPAN/dbg_trace.o: \
- C:/Users/Jaeho\ Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Middlewares/ST/STM32_WPAN/utilities/dbg_trace.c \
- C:/Users/Jaeho\ Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Middlewares/ST/STM32_WPAN/utilities/utilities_common.h \
+ C:/Users/Jaeho\ Park/Documents/GitHub/STM32WB_Projects_OFET-module/Middlewares/ST/STM32_WPAN/utilities/dbg_trace.c \
+ C:/Users/Jaeho\ Park/Documents/GitHub/STM32WB_Projects_OFET-module/Middlewares/ST/STM32_WPAN/utilities/utilities_common.h \
  ../../Core/Inc/app_conf.h \
  ../../../../../../../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/hw.h \
  ../../Core/Inc/hw_conf.h ../../Core/Inc/hw_if.h \
@@ -63,9 +63,9 @@ Middlewares/STM32_WPAN/dbg_trace.o: \
  ../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_rtc.h \
  ../../../../../../../Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.h \
  ../../../../../../../Middlewares/ST/STM32_WPAN/ble/core/ble_bufsize.h \
- C:/Users/Jaeho\ Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Middlewares/ST/STM32_WPAN/utilities/stm_queue.h \
- C:/Users/Jaeho\ Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Middlewares/ST/STM32_WPAN/utilities/dbg_trace.h
-C:/Users/Jaeho\ Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Middlewares/ST/STM32_WPAN/utilities/utilities_common.h:
+ C:/Users/Jaeho\ Park/Documents/GitHub/STM32WB_Projects_OFET-module/Middlewares/ST/STM32_WPAN/utilities/stm_queue.h \
+ C:/Users/Jaeho\ Park/Documents/GitHub/STM32WB_Projects_OFET-module/Middlewares/ST/STM32_WPAN/utilities/dbg_trace.h
+C:/Users/Jaeho\ Park/Documents/GitHub/STM32WB_Projects_OFET-module/Middlewares/ST/STM32_WPAN/utilities/utilities_common.h:
 ../../Core/Inc/app_conf.h:
 ../../../../../../../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/hw.h:
 ../../Core/Inc/hw_conf.h:
@@ -129,5 +129,5 @@ C:/Users/Jaeho\ Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Middlew
 ../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_rtc.h:
 ../../../../../../../Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.h:
 ../../../../../../../Middlewares/ST/STM32_WPAN/ble/core/ble_bufsize.h:
-C:/Users/Jaeho\ Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Middlewares/ST/STM32_WPAN/utilities/stm_queue.h:
-C:/Users/Jaeho\ Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Middlewares/ST/STM32_WPAN/utilities/dbg_trace.h:
+C:/Users/Jaeho\ Park/Documents/GitHub/STM32WB_Projects_OFET-module/Middlewares/ST/STM32_WPAN/utilities/stm_queue.h:
+C:/Users/Jaeho\ Park/Documents/GitHub/STM32WB_Projects_OFET-module/Middlewares/ST/STM32_WPAN/utilities/dbg_trace.h:

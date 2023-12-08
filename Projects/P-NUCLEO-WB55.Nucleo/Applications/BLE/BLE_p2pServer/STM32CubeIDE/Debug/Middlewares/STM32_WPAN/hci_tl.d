@@ -1,5 +1,5 @@
 Middlewares/STM32_WPAN/hci_tl.o: \
- C:/Users/Jaeho\ Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl.c \
+ C:/Users/Jaeho\ Park/Documents/GitHub/STM32WB_Projects_OFET-module/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl.c \
  ../../../../../../../Middlewares/ST/STM32_WPAN/ble/ble_common.h \
  ../../STM32_WPAN/App/ble_conf.h ../../Core/Inc/app_conf.h \
  ../../../../../../../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/hw.h \
@@ -72,8 +72,8 @@ Middlewares/STM32_WPAN/hci_tl.o: \
  ../../../../../../../Middlewares/ST/STM32_WPAN/utilities/stm_list.h \
  ../../../../../../../Middlewares/ST/STM32_WPAN/stm32_wpan_common.h \
  ../../../../../../../Drivers/CMSIS/Include/cmsis_compiler.h \
- C:/Users/Jaeho\ Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl.h \
- C:/Users/Jaeho\ Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl.h
+ C:/Users/Jaeho\ Park/Documents/GitHub/STM32WB_Projects_OFET-module/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl.h \
+ C:/Users/Jaeho\ Park/Documents/GitHub/STM32WB_Projects_OFET-module/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl.h
 ../../../../../../../Middlewares/ST/STM32_WPAN/ble/ble_common.h:
 ../../STM32_WPAN/App/ble_conf.h:
 ../../Core/Inc/app_conf.h:
@@ -148,5 +148,5 @@ Middlewares/STM32_WPAN/hci_tl.o: \
 ../../../../../../../Middlewares/ST/STM32_WPAN/utilities/stm_list.h:
 ../../../../../../../Middlewares/ST/STM32_WPAN/stm32_wpan_common.h:
 ../../../../../../../Drivers/CMSIS/Include/cmsis_compiler.h:
-C:/Users/Jaeho\ Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl.h:
-C:/Users/Jaeho\ Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl.h:
+C:/Users/Jaeho\ Park/Documents/GitHub/STM32WB_Projects_OFET-module/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl.h:
+C:/Users/Jaeho\ Park/Documents/GitHub/STM32WB_Projects_OFET-module/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl.h:

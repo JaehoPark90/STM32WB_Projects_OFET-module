@@ -1,6 +1,6 @@
 Middlewares/STM32_WPAN/svc_ctl.o: \
- C:/Users/Jaeho\ Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Middlewares/ST/STM32_WPAN/ble/svc/Src/svc_ctl.c \
- C:/Users/Jaeho\ Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Middlewares/ST/STM32_WPAN/ble/svc/Src/common_blesvc.h \
+ C:/Users/Jaeho\ Park/Documents/GitHub/STM32WB_Projects_OFET-module/Middlewares/ST/STM32_WPAN/ble/svc/Src/svc_ctl.c \
+ C:/Users/Jaeho\ Park/Documents/GitHub/STM32WB_Projects_OFET-module/Middlewares/ST/STM32_WPAN/ble/svc/Src/common_blesvc.h \
  ../../../../../../../Middlewares/ST/STM32_WPAN/ble/ble_common.h \
  ../../STM32_WPAN/App/ble_conf.h ../../Core/Inc/app_conf.h \
  ../../../../../../../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/hw.h \
@@ -109,7 +109,7 @@ Middlewares/STM32_WPAN/svc_ctl.o: \
  ../../../../../../../Middlewares/ST/STM32_WPAN/ble/svc/Inc/svc_ctl.h \
  ../../../../../../../Middlewares/ST/STM32_WPAN/ble/svc/Inc/uuid.h \
  ../../../../../../../Middlewares/ST/STM32_WPAN/utilities/dbg_trace.h
-C:/Users/Jaeho\ Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Middlewares/ST/STM32_WPAN/ble/svc/Src/common_blesvc.h:
+C:/Users/Jaeho\ Park/Documents/GitHub/STM32WB_Projects_OFET-module/Middlewares/ST/STM32_WPAN/ble/svc/Src/common_blesvc.h:
 ../../../../../../../Middlewares/ST/STM32_WPAN/ble/ble_common.h:
 ../../STM32_WPAN/App/ble_conf.h:
 ../../Core/Inc/app_conf.h:

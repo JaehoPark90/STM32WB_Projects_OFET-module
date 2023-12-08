@@ -1,5 +1,5 @@
 Application/User/STM32_WPAN/Target/hw_ipcc.o: \
- C:/Users/Jaeho\ Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Projects/P-NUCLEO-WB55.Nucleo/Applications/BLE/BLE_p2pServer/STM32_WPAN/Target/hw_ipcc.c \
+ C:/Users/Jaeho\ Park/Documents/GitHub/STM32WB_Projects_OFET-module/Projects/P-NUCLEO-WB55.Nucleo/Applications/BLE/BLE_p2pServer/STM32_WPAN/Target/hw_ipcc.c \
  ../../Core/Inc/app_common.h ../../Core/Inc/app_conf.h \
  ../../../../../../../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/hw.h \
  ../../Core/Inc/hw_conf.h ../../Core/Inc/hw_if.h \

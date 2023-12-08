@@ -1,5 +1,5 @@
 Application/User/Core/hw_uart.o: \
- C:/Users/Jaeho\ Park/Downloads/STM32CubeWB-master_new/STM32CubeWB-master/Projects/P-NUCLEO-WB55.Nucleo/Applications/BLE/BLE_p2pServer/Core/Src/hw_uart.c \
+ C:/Users/Jaeho\ Park/Documents/GitHub/STM32WB_Projects_OFET-module/Projects/P-NUCLEO-WB55.Nucleo/Applications/BLE/BLE_p2pServer/Core/Src/hw_uart.c \
  ../../Core/Inc/app_common.h ../../Core/Inc/app_conf.h \
  ../../../../../../../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/hw.h \
  ../../Core/Inc/hw_conf.h ../../Core/Inc/hw_if.h \
