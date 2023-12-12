@@ -162,9 +162,8 @@ int main(void)
   while(HAL_ADCEx_Calibration_Start(&hadc1, ADC_SINGLE_ENDED) != HAL_OK);
   //HAL_GPIO_WritePin(LED1_OUT_GPIO_Port, LED1_OUT_Pin, GPIO_PIN_SET);
   AD5697R_init();
-  printf("hi\r\n");
-  AD5697R_setDAC(0,1);
-  AD5697R_setDAC(1,1);
+  AD5697R_setDAC(0,0.5);
+  AD5697R_setDAC(1,0.5);
   HAL_GPIO_WritePin(GPIOA, GPIO_PIN_1, GPIO_PIN_SET);
 
   /* USER CODE END 2 */

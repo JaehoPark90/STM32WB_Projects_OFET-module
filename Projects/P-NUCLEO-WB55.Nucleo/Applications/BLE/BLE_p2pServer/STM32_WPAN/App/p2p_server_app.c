@@ -463,9 +463,9 @@ void HAL_SYSTICK_Callback(void){
 
 	if(sweepFlag == 0 && P2P_Server_App_Context.Notification_Status == 1){
 		sweepFlag = 1;
-		dacV = 0.02;
+		dacV = 0.15;
 	}
-	else if(sweepFlag == 1 && P2P_Server_App_Context.Notification_Status == 1 && dacV <= 1.0 && dacV >= 0){
+	else if(sweepFlag == 1 && P2P_Server_App_Context.Notification_Status == 1 && dacV <= 2.0 && dacV >= 0){
 
 		if(adcFlag == 0 && samplingFlag == 0){
 			AD5697R_setDAC(0,dacV);
@@ -513,7 +513,7 @@ void HAL_SYSTICK_Callback(void){
 			dacV = dacV + 0.01;
 		}
 	}
-	else if (sweepFlag == 1 && P2P_Server_App_Context.Notification_Status == 1 && dacV >1.0 && dacV != -1 	){
+	else if (sweepFlag == 1 && P2P_Server_App_Context.Notification_Status == 1 && dacV >2.0 && dacV != -1 	){
 		dacV = -1;
 		P2PS_APP_FETdata_Transmit(dacV, 0.0, 0.0);
 		globalTick = 0;
