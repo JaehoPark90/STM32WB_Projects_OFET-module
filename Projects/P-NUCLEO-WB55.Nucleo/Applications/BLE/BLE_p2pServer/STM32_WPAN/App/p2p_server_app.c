@@ -97,7 +97,8 @@ typedef struct
  */
 
 PLACE_IN_SECTION("BLE_APP_CONTEXT") static P2P_Server_App_Context_t P2P_Server_App_Context;
-double dacV = 0;
+double dacV0 = 0;
+double dacV1 = 0;
 int globalTick = 0;
 int sweepFlag = 0;
 int adcTick = 0;
@@ -463,13 +464,14 @@ void HAL_SYSTICK_Callback(void){
 
 	if(sweepFlag == 0 && P2P_Server_App_Context.Notification_Status == 1){
 		sweepFlag = 1;
-		dacV = 0.15;
+		dacV0 = 0.4;
+		dacV1 = 0.1;
 	}
-	else if(sweepFlag == 1 && P2P_Server_App_Context.Notification_Status == 1 && dacV <= 2.0 && dacV >= 0){
+	else if(sweepFlag == 1 && P2P_Server_App_Context.Notification_Status == 1 && dacV0 <= 2.0 && dacV0 >= 0){
 
 		if(adcFlag == 0 && samplingFlag == 0){
-			AD5697R_setDAC(0,dacV);
-			AD5697R_setDAC(1,dacV);
+			AD5697R_setDAC(0,dacV0);
+			AD5697R_setDAC(1,dacV1);
 
 			adcTick = 0;
 			samplingTick = 0;
@@ -499,29 +501,31 @@ void HAL_SYSTICK_Callback(void){
 			double ival0 = ((double)adcAve0) / ((double)4096.0)*3.3 /1e5;
 			double ival1 = ((double)adcAve1) / ((double)4096.0)*3.3 /1e5;
 
-			printf("%.3f, %d, %d, %d, %.3f, %.6e, %d, %d, %d, %.3f, %.6e\r\n",dacV, adcSum0, adcCount, adcAve0, vval0, ival0, adcSum1, adcCount, adcAve1, vval1, ival1);
+			printf("%.3f, %d, %d, %d, %.3f, %.6e, %d, %d, %d, %.3f, %.6e\r\n",dacV0, adcSum0, adcCount, adcAve0, vval0, ival0, adcSum1, adcCount, adcAve1, vval1, ival1);
 
 			adcCount = 0;
 			adcSum0 = 0;
 			adcSum1 = 0;
 
-			P2PS_APP_FETdata_Transmit(dacV, vval0, vval1);
+			P2PS_APP_FETdata_Transmit(dacV0, vval0, vval1);
 
 		}
 		else if(adcFlag == 0 && samplingTick > 100 && samplingFlag == 1){
 			samplingFlag = 0;
-			dacV = dacV + 0.01;
+			dacV0 = dacV0 + 0.01;
+			dacV1 = dacV1 + 0.01;
 		}
 	}
-	else if (sweepFlag == 1 && P2P_Server_App_Context.Notification_Status == 1 && dacV >2.0 && dacV != -1 	){
-		dacV = -1;
-		P2PS_APP_FETdata_Transmit(dacV, 0.0, 0.0);
+	else if (sweepFlag == 1 && P2P_Server_App_Context.Notification_Status == 1 && dacV0 >2.0 && dacV0 != -1 	){
+		dacV0 = -1;
+		P2PS_APP_FETdata_Transmit(dacV0, 0.0, 0.0);
 		globalTick = 0;
 	}
-	else if (globalTick > 10000 && sweepFlag == 1 && P2P_Server_App_Context.Notification_Status == 1 && dacV <= -0.5){
-		dacV = 0.0;
-		AD5697R_setDAC(0,dacV);
-		AD5697R_setDAC(1,dacV);
+	else if (globalTick > 10000 && sweepFlag == 1 && P2P_Server_App_Context.Notification_Status == 1 && dacV0 <= -0.5){
+		dacV0 = 0.1;
+		dacV1 = 0.4;
+		AD5697R_setDAC(0,dacV0);
+		AD5697R_setDAC(1,dacV1);
 		sweepFlag = 0;
 	}
 
