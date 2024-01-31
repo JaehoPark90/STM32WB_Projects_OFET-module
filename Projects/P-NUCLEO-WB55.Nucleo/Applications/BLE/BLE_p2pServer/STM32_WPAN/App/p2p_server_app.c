@@ -464,8 +464,8 @@ void HAL_SYSTICK_Callback(void){
 
 	if(sweepFlag == 0 && P2P_Server_App_Context.Notification_Status == 1){
 		sweepFlag = 1;
-		dacV0 = 0.4;
-		dacV1 = 0.1;
+		dacV0 = 0.02;
+		dacV1 = 0.02;
 	}
 	else if(sweepFlag == 1 && P2P_Server_App_Context.Notification_Status == 1 && dacV0 <= 2.0 && dacV0 >= 0){
 
@@ -512,20 +512,23 @@ void HAL_SYSTICK_Callback(void){
 		}
 		else if(adcFlag == 0 && samplingTick > 100 && samplingFlag == 1){
 			samplingFlag = 0;
-			dacV0 = dacV0 + 0.01;
-			dacV1 = dacV1 + 0.01;
+			dacV0 = dacV0 + 0.03;
+			dacV1 = dacV1 + 0.03;
 		}
 	}
 	else if (sweepFlag == 1 && P2P_Server_App_Context.Notification_Status == 1 && dacV0 >2.0 && dacV0 != -1 	){
 		dacV0 = -1;
 		P2PS_APP_FETdata_Transmit(dacV0, 0.0, 0.0);
 		globalTick = 0;
-	}
-	else if (globalTick > 10000 && sweepFlag == 1 && P2P_Server_App_Context.Notification_Status == 1 && dacV0 <= -0.5){
-		dacV0 = 0.1;
-		dacV1 = 0.4;
+		dacV0 = 0.001;
+		dacV1 = 0.001;
 		AD5697R_setDAC(0,dacV0);
 		AD5697R_setDAC(1,dacV1);
+		dacV0 = -1;
+		dacV1 = -1;
+	}
+	else if (globalTick > 10000 && sweepFlag == 1 && P2P_Server_App_Context.Notification_Status == 1 && dacV0 <= -0.5){
+
 		sweepFlag = 0;
 	}
 
